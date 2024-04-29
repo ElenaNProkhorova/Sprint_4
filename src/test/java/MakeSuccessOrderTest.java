@@ -15,7 +15,7 @@ public class MakeSuccessOrderTest {
     @Before
     public void setup() {
         WebDriverFactory WebDriverFactory = new WebDriverFactory();
-        this.driver = WebDriverFactory.getWebdriver(System.getProperty("browser", "chrome"));
+        this.driver = WebDriverFactory.getWebdriver(System.getProperty("browser", "firefox"));
         this.driver.get("https://qa-scooter.praktikum-services.ru/");
     }
 
